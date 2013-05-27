@@ -4,6 +4,9 @@ AVR-ISP_pogo-plug_1.27mm
 
 LAYOUT FILES: AVR-ISP adapter: 6pin (2.54mm) --> 6pin pogo-pins (1.27mm). 
 
+When your boards get smaller and smaller and it gets harder and harder
+to find a spot for the programming connector.
+
 Pogo-pin type: "P50 - E2", 0.68mm body diameter, 0.9mm head diameter.
 
 
