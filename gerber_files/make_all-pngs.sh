@@ -3,6 +3,11 @@
 # default DPI value of 300
 DPI=${1:-300}
 
+if [[ ! -d ./PNGs/ ]]
+then
+	mkdir PNGs
+fi
+
 for file in `ls *.g[!v]?`; do
 gerbv $file -o ./PNGs/$file.png --dpi=${DPI}x${DPI} -a --export=png
 done
