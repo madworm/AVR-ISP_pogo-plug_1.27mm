@@ -1,0 +1,4 @@
+
+The idea is to line up the pogo pins in the small grooves formed by the finger shaped pads.
+Once lined up and depth-adjusted, tack them down and finalize the solder job.
+
