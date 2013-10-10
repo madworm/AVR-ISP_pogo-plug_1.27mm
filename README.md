@@ -9,6 +9,8 @@ to find a spot for the programming connector.
 
 Pogo-pin type: "P50 - E2", 0.68mm body diameter, 0.9mm head diameter.
 
+PCB thickness: 0.6mm !
+
 
 ---
 
