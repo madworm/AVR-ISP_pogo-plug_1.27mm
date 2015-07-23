@@ -1,5 +1,5 @@
 (gerbv-file-version! "2.0A")
-(define-layer! 7 (cons 'filename "../AVR-ISP_pogo-plug_1.27mm-Edge_Cuts.gbr")(cons 'visible #t)(cons 'color #(65535 0 0)))
+(define-layer! 7 (cons 'filename "../AVR-ISP_pogo-plug_1.27mm-Edge_Cuts.gm1")(cons 'visible #t)(cons 'color #(65535 0 0)))
 (define-layer! 6 (cons 'filename "../AVR-ISP_pogo-plug_1.27mm-B_Cu.gbl")(cons 'visible #t)(cons 'color #(7710 0 16705)))
 (define-layer! 5 (cons 'filename "../AVR-ISP_pogo-plug_1.27mm-B_Mask.gbs")(cons 'visible #t)(cons 'color #(51400 37265 20560)))
 (define-layer! 4 (cons 'filename "../AVR-ISP_pogo-plug_1.27mm-B_SilkS.gbo")(cons 'visible #t)(cons 'color #(65535 65535 65535)))
