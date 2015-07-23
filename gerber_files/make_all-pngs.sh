@@ -24,4 +24,4 @@ OUTFILE=${OUTFILE/%.gvp/.png}
 gerbv -p $file -o $OUTFILE --dpi=${DPI}x${DPI} -a --export=png
 done
 
-gwenview ./PNGs/* &
+gwenview ./PNGs/ &
