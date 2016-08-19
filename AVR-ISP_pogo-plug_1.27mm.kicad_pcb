@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew "(2016-01-30 BZR 6528, Git 351752f)-product")
+(kicad_pcb (version 4) (host pcbnew "(2016-01-20 BZR 6500, Git 74b498d)-product")
 
   (general
     (links 18)
     (no_connects 0)
-    (area 62.449999 60.7968 74.550001 82.8132)
+    (area 62.449999 62.449999 74.550001 82.8132)
     (thickness 1.6)
     (drawings 30)
     (tracks 54)
@@ -15,8 +15,8 @@
   (page User 140.005 140.005)
   (title_block
     (title "AVR-ISP pogo-plug 1.27mm")
-    (date 2016-02-02)
-    (rev 0.21.f)
+    (date 2016-01-26)
+    (rev 0.21.e)
     (company "2015 - blog.spitzenpfeil.org")
   )
 
@@ -56,8 +56,8 @@
     (mod_edge_width 0.1)
     (mod_text_size 1.5 1.5)
     (mod_text_width 0.15)
-    (pad_size 0.5 0.5)
-    (pad_drill 0.5)
+    (pad_size 1.5 2)
+    (pad_drill 1.016)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
@@ -111,16 +111,16 @@
     (add_net /V-target)
   )
 
-  (module MADW__PIN_ARRAY_3x2_1.27mm (layer F.Cu) (tedit 56B0A922) (tstamp 52B2361F)
+  (module MADW__PIN_ARRAY_3x2_1.27mm (layer F.Cu) (tedit 56A7B90D) (tstamp 52B2361F)
     (at 68.5 68)
     (descr "Male 3x2 header with 1.27mm raster")
     (tags "CONN, header, male, 3x2, 1.27mm")
     (path /51A0EE07)
     (clearance 0.15)
-    (fp_text reference P2 (at 0 -6) (layer F.SilkS) hide
+    (fp_text reference P2 (at 0 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
-    (fp_text value CONN_6 (at 0 6.5) (layer F.SilkS) hide
+    (fp_text value CONN_6 (at 0 1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (pad ~ smd rect (at -1.55 -3.75) (size 0.4 2) (layers F.Cu F.Mask))
@@ -171,17 +171,6 @@
       (net 1 /GND))
     (pad 6 smd rect (at -1.27 4.4958) (size 0.95 1) (layers B.Cu B.Mask)
       (net 1 /GND))
-    (pad 7 connect rect (at 1.27 -0.36) (size 0.68 5) (layers))
-    (pad 7 connect rect (at 0 -0.36) (size 0.68 5) (layers))
-    (pad 7 connect rect (at -1.27 -0.36) (size 0.68 5) (layers))
-    (pad "" np_thru_hole circle (at 0.635 -0.8) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask)
-      (solder_mask_margin 0.001))
-    (pad "" np_thru_hole circle (at -0.635 -0.8) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask)
-      (solder_mask_margin 0.001))
-    (pad "" np_thru_hole circle (at -1.905 -0.8) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask)
-      (solder_mask_margin 0.001))
-    (pad "" np_thru_hole circle (at 1.905 -0.8) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask)
-      (solder_mask_margin 0.001))
   )
 
   (module my_parts:MADW__PIN_ARRAY_3x2_2.54mm (layer F.Cu) (tedit 53710501) (tstamp 51A0EF26)
